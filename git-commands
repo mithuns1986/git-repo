@@ -1,0 +1,90 @@
+  501  git -v
+  502  mkdir git-repo
+  503  cd git-repo/
+  504  ls
+  505  git status
+  506  l-la
+  507  ls -la
+  508  git init
+  509  cd .git/
+  510  ls -la
+  511  cd ..
+  512  git status
+  513  touch file1
+  514  touch file2
+  515  git status
+  516  git add file 1
+  517  git add file1
+  518  git status
+  519  git add file2
+  520  git status
+  521  git commit -m "MY FIRST COMMIT"
+  522  vim file1
+  523  vim file2
+  524  git status
+  525  git add .
+  526  git status
+  527  git commit -m "MY 2nd COMMIT"
+  528  vim fle1
+  529  git checkout -b Development
+  530  ls
+  531  cat file1
+  532  cat file2
+  533  vim file1
+  534  vim file2
+  535  git add .
+  536  git commit -m "Deleted code"
+  537  cat file1
+  538  cat file2
+  539  git checkout master
+  540  cat file1
+  541  cat file2
+  542  git checkout -b manmadh
+  543  git status
+  544  git log --onelinw
+  545  git log
+  546  ssh-keygen -t rsa
+  547  cat /c/Users/MITHUN/.ssh/id_rsa
+  548  cat /c/Users/MITHUN/.ssh/id_rsa.pub
+  549  git remote add git@github.com:mithuns1986/git-repo.git
+  550  git remote add origin git@github.com:mithuns1986/git-repo.git
+  551  git remote -v
+  552  git checkout master
+  553  git push origin master
+  554  git pull
+  555  git checkout main
+  556  ls
+  557  cat README.md
+  558  ls -la
+  559  ls
+  560  cat .gitignore
+  561  git checkout master
+  562  ls
+  563  vim file1
+  564  vim file2
+  565  git commit -m 'JIRA-4567:Modified file1 & file2'
+  566  git add .
+  567  git commit -m 'JIRA-4567:Modified file1 & file2'
+  568  git status
+  569  git push origin master
+  570  git checkout main
+  571  git status
+  572  ls
+  573  ls -la
+  574  vim file1
+  575  git status
+  576  git add file1
+  577  git commit -m"JIRA-4567:Added file1"
+  578  git push'
+  579  git push
+  580  vim file2
+  581  git add file2
+  582  git commit -m"Added file2"
+  583  git push
+  584  git diff
+  585  git diff main development
+  586  git log
+  587  git-log
+  588  git show ff3523feec25de4e5834ae7d37cc5dcfb18ab120
+  589  history
+
